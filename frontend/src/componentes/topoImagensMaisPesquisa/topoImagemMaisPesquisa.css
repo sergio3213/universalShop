@@ -1,0 +1,110 @@
+.divTotal {
+  background-size: 50vw 45vh;
+  background-position: 40vw;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 50vh;
+  border: 0px solid black;
+  background-image: linear-gradient(to bottom, transparent 30%, #fff 80%),
+    url(combinacaoImagensTopo.png);
+  position:relative;
+  top:-15vw
+}
+
+.primeiraDivTopo {
+  position: relative;
+  top: 1vh;
+  border: 0px solid black;
+  height: 4vh;
+}
+
+.imgEconeEmail {
+  position: relative;
+  left: 10vh;
+  width: 2vw;
+  height: 4vh;
+}
+
+.spanEmail {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  position:relative;
+  left:6vw;
+  top:-1vh;
+}
+
+.imgIconeTelefone{
+  position: relative;
+  left: 20vh;
+  width: 2vw;
+  height: 4vh;
+
+}
+
+.spanTelefone{
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  position:relative;
+  left:11vw;
+  top:-1vh;
+}
+
+.imgIconeFacebook{
+  position: relative;
+  left: 35vw;
+  top:-0.6vh;
+  width: 1.5vw;
+  height: 2.6vh;
+
+}
+
+.imgIconeLinkedin{
+  position: relative;
+  left: 37vw;
+  top:-0.6vh;
+  width: 1.5vw;
+  height: 2.6vh;
+
+}
+
+.imgIconeGithub{
+  position: relative;
+  left: 39vw;
+  top:-0.2vh;
+  width: 2vw;
+  height: 3.4vh;
+
+}
+.tituloTopoH1DescubraUmMundo {
+  position: relative;
+  top: 0vh;
+  left: 5vw;
+}
+
+.h1DescubraUmMundo {
+  font-weight: 200;
+  font-size: 8vh;
+  font-family: "Oswald", sans-serif;
+}
+
+.spanEmNossaLojaOnline {
+  background-color: #aee566;
+}
+
+.LinkLogin{
+  position:relative;
+  left:45vw;
+  text-decoration: none;
+  font-family: "Oswald", sans-serif;
+  font-size: calc(1vw + 1vh);
+  color:rgb(92, 92, 255)
+}
+
+.LinkLogin:visited{
+  position:relative;
+  left:45vw;
+  text-decoration: none;
+  font-family: "Oswald", sans-serif;
+  font-size: calc(1vw + 1vh);
+  color:rgb(92, 92, 255)
+}

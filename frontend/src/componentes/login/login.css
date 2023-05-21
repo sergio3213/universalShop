@@ -1,0 +1,76 @@
+.divTudoLogin{
+    position:relative;top:-20vh
+}
+
+.divQuadroTotal{
+    position:relative;
+    left:8vw;
+    top:5vh;
+    width:80vw;
+    height:80vh;
+    border:0px solid black;
+    border-radius:calc(1vw + 1vh)
+}
+.divQuadroEsquerdo{
+    border:0px solid black;
+    float:left;
+    position:relative;
+    top:0vh;
+    width:40vw;
+    height:80vh;
+    background-color: rgb(3, 151, 126);
+    border-radius:calc(1vw + 1vh) 0 0 calc(1vw + 1vh)
+}
+
+.h1TitlePaginaDeLogin{
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-weight: 200;
+    font-size:calc(3vw + 3vh);
+    position:relative;
+    left:10vw;
+    color:white
+    
+}
+
+.divComSpanLogin{
+    width:40vw;
+    border:0px solid black;
+    
+}
+.divAcesseSuaConta{
+    font-size:calc(1.5vw + 2.5vh);
+    color:white;
+    font-family: 'Rajdhani', sans-serif;
+    position:relative;
+    left:10vw;
+    top:-2vh;
+}
+
+.divOu{
+    font-size:calc(1.5vw + 2.5vh);
+    color:white;
+    font-family: 'Rajdhani', sans-serif;
+    position:relative;
+    left:18vw;
+    top:1vh;
+}
+
+.divRegistre-se{
+    font-size:calc(0.8vw + 0.8vh);
+    border:1px solid white;
+    border-radius:calc(0.2vw + 0.2vh);
+    color:white;
+    font-family: 'Rajdhani', sans-serif;
+    position:relative;
+    left:12vw;
+    top:7vh;
+    width:12vw;
+}
+
+.divTotalComInputs{
+    border:1px solid black;
+    width:40vw;
+    position:relative;
+    left:50vw;
+}
+

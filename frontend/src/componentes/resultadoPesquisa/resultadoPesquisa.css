@@ -1,0 +1,402 @@
+.divTitleResultadoPesquisa {
+  text-align: center;
+}
+
+.divTodosCardsDeProdutos {
+  border: 0px solid black;
+  position: relative;
+  float: left;
+  top: 5vh;
+
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  height: 70vh; /* Defina uma altura para a div externa */
+}
+
+.divTotalProduto0 {
+  position: relative;
+  float: left;
+  left: 4vw;
+  width: 20vw;
+  height: 65vh;
+  border-radius: 0.4vw;
+  border: 0.01vw solid rgb(231, 231, 231);
+  box-shadow: 0 2px calc(1vw + 1vh) rgba(0, 0, 0, 0.2);
+}
+
+.divImagem0 {
+  text-align: center;
+}
+
+.divNome0 {
+  font-size: calc(1vw + 2vh);
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+}
+
+.divDescricao0 {
+  position: relative;
+  top: 3vh;
+  text-align: center;
+}
+
+.divPreco0 {
+  text-align: center;
+  position: relative;
+  top: 6vh;
+  border: 0px solid black;
+  font-size: calc(1vw + 2vh);
+  font-family: "Oswald", sans-serif;
+}
+
+.divAddAoCarrinho0 {
+  position: relative;
+  top: 10vh;
+  text-align: center;
+}
+
+.buttonAddAoCarrinho0 {
+}
+
+.divTotalProduto1 {
+  float: left;
+  position: relative;
+  left: 8vw;
+  width: 20vw;
+  height: 65vh;
+
+  border: 0.01vw solid rgb(231, 231, 231);
+  border-radius: 0.4vw;
+
+  box-shadow: 0 2px calc(1vw + 1vh) rgba(0, 0, 0, 0.2);
+}
+
+.divImagem1 {
+  text-align: center;
+}
+
+.divNome1 {
+  font-size: calc(1vw + 2vh);
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+}
+
+.divDescricao1 {
+  position: relative;
+  top: 3vh;
+  text-align: center;
+}
+
+.divPreco1 {
+  text-align: center;
+  position: relative;
+  top: 6vh;
+  border: 0px solid black;
+  font-size: calc(1vw + 2vh);
+  font-family: "Oswald", sans-serif;
+}
+
+.divAddAoCarrinho1 {
+  position: relative;
+  top: 10vh;
+  text-align: center;
+}
+
+.divTotalProduto2 {
+  float: left;
+  position: relative;
+  left: 12vw;
+  width: 20vw;
+  height: 65vh;
+
+  border: 0.01vw solid rgb(231, 231, 231);
+  border-radius: 0.4vw;
+
+  box-shadow: 0 2px calc(1vw + 1vh) rgba(0, 0, 0, 0.2);
+}
+
+.divImagem2 {
+  text-align: center;
+}
+
+.divNome2 {
+  font-size: calc(1vw + 2vh);
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+}
+
+.divDescricao2 {
+  position: relative;
+  top: 3vh;
+  text-align: center;
+}
+
+.divPreco2 {
+  text-align: center;
+  position: relative;
+  top: 6vh;
+  border: 0px solid black;
+  font-size: calc(1vw + 2vh);
+  font-family: "Oswald", sans-serif;
+}
+
+.divAddAoCarrinho2 {
+  position: relative;
+  top: 10vh;
+  text-align: center;
+}
+
+.divTotalProduto3 {
+  float: left;
+  position: relative;
+  left: 16vw;
+  width: 20vw;
+  height: 65vh;
+
+  border: 0.01vw solid rgb(231, 231, 231);
+  border-radius: 0.4vw;
+
+  box-shadow: 0 2px calc(1vw + 1vh) rgba(0, 0, 0, 0.2);
+}
+
+.divImagem3 {
+  text-align: center;
+}
+
+.divNome3 {
+  font-size: calc(1vw + 2vh);
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+}
+
+.divDescricao3 {
+  position: relative;
+  top: 3vh;
+  text-align: center;
+}
+
+.divPreco3 {
+  text-align: center;
+  position: relative;
+  top: 6vh;
+  border: 0px solid black;
+  font-size: calc(1vw + 2vh);
+  font-family: "Oswald", sans-serif;
+}
+
+.divAddAoCarrinho3 {
+  position: relative;
+  top: 10vh;
+  text-align: center;
+}
+
+.divTotalProduto4 {
+  float: left;
+  position: relative;
+  top: 3vh;
+  left: 4vw;
+  width: 20vw;
+  height: 65vh;
+
+  border: 0.01vw solid rgb(231, 231, 231);
+  border-radius: 0.4vw;
+
+  box-shadow: 0 2px calc(1vw + 1vh) rgba(0, 0, 0, 0.2);
+}
+
+.divImagem4 {
+  text-align: center;
+}
+
+.divNome4 {
+  font-size: calc(1vw + 2vh);
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+}
+
+.divDescricao4 {
+  position: relative;
+  top: 3vh;
+  text-align: center;
+}
+
+.divPreco4 {
+  text-align: center;
+  position: relative;
+  top: 6vh;
+  border: 0px solid black;
+  font-size: calc(1vw + 2vh);
+  font-family: "Oswald", sans-serif;
+}
+
+.divAddAoCarrinho4 {
+  position: relative;
+  top: 10vh;
+  text-align: center;
+}
+
+.divTotalProduto5 {
+  float: left;
+  position: relative;
+  top: 3vh;
+  left: 8vw;
+  width: 20vw;
+  height: 65vh;
+
+  border: 0.01vw solid rgb(231, 231, 231);
+  border-radius: 0.4vw;
+
+  box-shadow: 0 2px calc(1vw + 1vh) rgba(0, 0, 0, 0.2);
+}
+
+.divImagem5 {
+  text-align: center;
+}
+
+.divNome5 {
+  font-size: calc(1vw + 2vh);
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+}
+
+.divDescricao5 {
+  position: relative;
+  top: 3vh;
+  text-align: center;
+}
+
+.divPreco5 {
+  text-align: center;
+  position: relative;
+  top: 6vh;
+  border: 0px solid black;
+  font-size: calc(1vw + 2vh);
+  font-family: "Oswald", sans-serif;
+}
+
+.divAddAoCarrinho5 {
+  position: relative;
+  top: 10vh;
+  text-align: center;
+}
+
+.divTotalProduto6 {
+  float: left;
+  position: relative;
+  top: 3vh;
+  left: 12vw;
+  width: 20vw;
+  height: 65vh;
+
+  border: 0.01vw solid rgb(231, 231, 231);
+  border-radius: 0.4vw;
+
+  box-shadow: 0 2px calc(1vw + 1vh) rgba(0, 0, 0, 0.2);
+}
+
+.divImagem6 {
+  text-align: center;
+}
+
+.img6 {
+  border: 0px solid black;
+}
+
+.divNome6 {
+  font-size: calc(1vw + 2vh);
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+}
+
+.divDescricao6 {
+  position: relative;
+  top: 3vh;
+  text-align: center;
+}
+
+.divPreco6 {
+  text-align: center;
+  position: relative;
+  top: 6vh;
+  border: 0px solid black;
+  font-size: calc(1vw + 2vh);
+  font-family: "Oswald", sans-serif;
+}
+
+.divAddAoCarrinho6 {
+  position: relative;
+  top: 10vh;
+  text-align: center;
+}
+
+.divTotalProduto7 {
+  float: left;
+  position: relative;
+  top: 3vh;
+  left: 16vw;
+  width: 20vw;
+  height: 65vh;
+
+  border: 0.01vw solid rgb(231, 231, 231);
+  border-radius: 0.4vw;
+
+  box-shadow: 0 2px calc(1vw + 1vh) rgba(0, 0, 0, 0.2);
+}
+
+.divImagem7 {
+  text-align: center;
+}
+
+.img7 {
+  border: 0px solid black;
+}
+
+.divNome7 {
+  font-size: calc(1vw + 2vh);
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+}
+
+.divDescricao7 {
+  position: relative;
+  top: 3vh;
+  text-align: center;
+}
+
+.divPreco7 {
+  text-align: center;
+  position: relative;
+  top: 6vh;
+  border: 0px solid black;
+  font-size: calc(1vw + 2vh);
+  font-family: "Oswald", sans-serif;
+}
+
+.divAddAoCarrinho7 {
+  position: relative;
+  top: 10vh;
+  text-align: center;
+}
+
+.divLinkListaAnteriorElistaProximoProdutos {
+  position: relative;
+  top: 73vh; 
+  border:0px solid black;
+  text-align: center;
+  font-size: calc(0.8vw + 0.8vh);
+}
+
+.divLinkListaAnteriorElistaProximoProdutos a{
+    color: #3483fa;
+    font-family:'Roboto',sans-serif;
+    font-size: calc(0.8vw + 0.8vh);
+    text-decoration: none;  
+
+}
+
+.divLinkListaAnteriorElistaProximoProdutos a:visited {
+  color: #3483fa;
+  font-family:'Roboto',sans-serif;
+  font-size: calc(0.8vw + 0.8vh);
+  text-decoration: none;
+}
