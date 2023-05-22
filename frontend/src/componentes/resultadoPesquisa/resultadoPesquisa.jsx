@@ -1,12 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import { connect } from "react-redux";
 import axios from "axios";
 import "./resultadoPesquisa.css";
 import { Link } from "react-router-dom";
 import Card from "./cards";
 import Buscador from "../buscador/buscador";
-import TopoImagemMaisPesquisa from "../topoImagensMaisPesquisa/topoImagemMaisPesquisa";
-
 class ResultadoPesquisa extends React.Component {
   constructor(props) {
     super(props);
@@ -44,13 +42,15 @@ class ResultadoPesquisa extends React.Component {
       this.setState(() => ({ indiceMinimo: 0, indiceMaximo: 7 }));
     }
 
-    
+   
 
     if (
-      (resultSearch !== prevProps.resultSearch && contadorClickButton !== prevProps.contadorClickButton ||
+      ((resultSearch !== prevProps.resultSearch || contadorClickButton !== prevProps.contadorClickButton) ||
         this.state.indiceMinimo !== prevState.indiceMinimo) &&
       resultSearch !== ""
+      
     ) {
+      localStorage.setItem("ultimaPesquisa",resultSearch)
       axios
         .get(`http://localhost:3001/searchProducts?search=${resultSearch}`)
         .then((data) => {
@@ -64,6 +64,22 @@ class ResultadoPesquisa extends React.Component {
           );
         });
     }
+  }
+
+  componentDidMount(){
+    
+    axios
+    .get(`http://localhost:3001/searchProducts?search=${localStorage.getItem("ultimaPesquisa")}`)
+    .then((data) => {
+      this.setState(
+        (prevState) => ({ respostaAxiosSearchProducts: data }),
+        () => {
+          this.setState(() => ({
+            mapProdutos: this.mapNaRespostaDaPesquisa(),
+          }));
+        }
+      );
+    });
   }
 
   mapNaRespostaDaPesquisa = () => {
@@ -92,11 +108,11 @@ class ResultadoPesquisa extends React.Component {
       
     }));
     if(this.state.indicePaginaQueEstou < this.state.respostaAxiosSearchProducts.data.length / 8){
+      console.log(this.state.mapProdutos);
       await this.setState((prevState) => ({
         indicePaginaQueEstou:prevState.indicePaginaQueEstou+1,
       }));
     }
-    console.log(this.state.mapProdutos);
   }
 
 

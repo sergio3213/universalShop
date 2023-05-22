@@ -5,7 +5,6 @@ import "./topoImagemMaisPesquisa.css";
 import { actionCreator } from "../../redux/actions";
 import { connect } from "react-redux";
 import { useNavigate, Link, useLocation } from "react-router-dom";
-import PrimeiraDivTopo from "../primeiraDivTopo/primeiraDivTopo";
 import Buscador from "../buscador/buscador";
 
 function TopoImagemMaisPesquisa(props) {
@@ -19,7 +18,7 @@ function TopoImagemMaisPesquisa(props) {
   const { dispatch } = props;
 
     const handleClickSearch = async (e) => {
-    await navigate("/resultadoPesquisa");
+    await navigate(`/resultadoPesquisa`);
     dispatch(actionCreator(document.querySelector(".inputDeBusca").value));
     if (stringPesquisa === prevStringPesquisa) {
       alert("Ops! parece que você já pesquisou isso.");

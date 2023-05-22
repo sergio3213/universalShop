@@ -1,6 +1,8 @@
 import React from "react";
+import {Link} from 'react-router-dom'
 import "./login.css";
 import imagemLogin from "./imagemLogin.png";
+import SubComponenteLogin from "./subComponenteLogin/subComponenteLogin";
 class Login extends React.Component {
   render() {
     return (
@@ -13,12 +15,12 @@ class Login extends React.Component {
               <div className="divOu">
                 ou
               </div>
-              <div className="divRegistre-se">Registre-se</div>
+              <Link className="linkRegistre-se"><div className="divRegistre-se">Registre-se</div></Link>
             </div>
             
           </div>
 
-          <div className='divTotalComInputs'>sdff</div>
+          <SubComponenteLogin></SubComponenteLogin>
         </div>
       </div>
     );

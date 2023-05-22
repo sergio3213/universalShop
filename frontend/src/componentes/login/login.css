@@ -27,7 +27,8 @@
     font-weight: 200;
     font-size:calc(3vw + 3vh);
     position:relative;
-    left:10vw;
+    left:8.5vw;
+    top:5vh;
     color:white
     
 }
@@ -42,8 +43,8 @@
     color:white;
     font-family: 'Rajdhani', sans-serif;
     position:relative;
-    left:10vw;
-    top:-2vh;
+    left:9.5vw;
+    top:2vh;
 }
 
 .divOu{
@@ -52,20 +53,31 @@
     font-family: 'Rajdhani', sans-serif;
     position:relative;
     left:18vw;
-    top:1vh;
+    top:4vh;
 }
 
 .divRegistre-se{
-    font-size:calc(0.8vw + 0.8vh);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:calc(1.2vw + 1.2vh);
     border:1px solid white;
-    border-radius:calc(0.2vw + 0.2vh);
+    border-radius:calc(0.7vw + 0.7vh);
     color:white;
-    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Roboto', sans-serif;
     position:relative;
-    left:12vw;
-    top:7vh;
-    width:12vw;
+    left:13vw;
+    top:9vh;
+    width:13vw;
+    height:5vh;
+    transition: background-color 1s ease;
 }
+
+.divRegistre-se:hover{
+    background-color: white;
+    color:black
+}
+.linkRegistre-se{text-decoration: none;}
 
 .divTotalComInputs{
     border:1px solid black;
@@ -73,4 +85,8 @@
     position:relative;
     left:50vw;
 }
+
+
+
+
 
