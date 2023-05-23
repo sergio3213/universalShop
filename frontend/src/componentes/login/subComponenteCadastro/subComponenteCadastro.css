@@ -1,0 +1,27 @@
+.divTudoComponenteCadastrese{
+    border:0px solid black;
+    position:relative;
+    left:40vw;
+    background-color: rgb(247, 247, 247);
+    width:40vw;
+    height:80vh;
+    border-radius:0 calc(1vw + 1vh) calc(1vw + 1vh) 0
+}
+
+.divH1CadastreseTitle{
+    position:relative;
+    top:6vw;
+    height:10vh;
+    width:40vw;
+    border:0px solid black;
+}
+
+.h1CadastreseTitle{
+    position:relative;
+    top:-77vh;
+    left:12vw;
+    border:1px solid black;
+    width:18vw;
+    height: 10vh;
+    font-size: calc(2vw + 2vh);
+}

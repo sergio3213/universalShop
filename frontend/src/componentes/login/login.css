@@ -46,6 +46,37 @@
     left:9.5vw;
     top:2vh;
 }
+.divLinkAcesseSuaConta{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:calc(1.2vw + 1.2vh);
+    border:1px solid white;
+    border-radius:calc(0.7vw + 0.7vh);
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    position:relative;
+    left:10.5vw;
+    top:2.5vh;
+    width:19vw;
+    height:7vh;
+    transition: background-color 1s ease;
+}
+.divLinkAcesseSuaConta:hover{
+    background-color: white;
+    color:black
+}
+
+.LinkAcesseSuaConta{
+    text-decoration: none;
+    color:white
+    
+}
+.LinkAcesseSuaConta:hover{
+    text-decoration: none;
+    color:black
+}
+
 
 .divOu{
     font-size:calc(1.5vw + 2.5vh);
@@ -78,6 +109,16 @@
     color:black
 }
 .linkRegistre-se{text-decoration: none;}
+
+
+.divRegistreseButtonFalse{
+    font-size:calc(1.5vw + 2.5vh);
+    color:white;
+    font-family: 'Rajdhani', sans-serif;
+    position:relative;
+    left:12.9vw;
+    top:7vh;
+}
 
 .divTotalComInputs{
     border:1px solid black;
