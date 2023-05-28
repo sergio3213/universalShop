@@ -44,7 +44,7 @@
     width:18vw;
     height:4.8vh;
     background-color:rgb(233, 233, 233);
-    background-image:url("imagemLogin.png");
+    background-image:url("emailLogin.png");
     background-size:1.5vw 2.9vh;
     background-position: 1vw 1.3vh;
     background-repeat:no-repeat;
@@ -104,5 +104,6 @@
     border-radius: calc(1vw + 1vh);
     font-family:sans-serif;
     font-weight:bolder;
-    font-size:calc(1vw + 1vh)
+    font-size:calc(1vw + 1vh);
+    cursor:pointer
 }

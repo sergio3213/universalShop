@@ -25,3 +25,113 @@
     height: 10vh;
     font-size: calc(2vw + 2vh);
 }
+
+
+.divInputNameCadastrese{
+    position:relative;
+    top:20vh;
+    border:0px solid black;
+    width:40vw;
+    height:5vh;
+    text-align: center;
+}
+
+.inputNomeCadastrese{
+    outline: none;
+    position:relative;
+    border:0px;
+    top:-52vh;
+    left:12vw;
+    width:18vw;
+    height:4.8vh;
+    background-color:rgb(233, 233, 233);
+    background-image:url("imagemLogin.png");
+    background-size:1.5vw 2.9vh;
+    background-position: 1vw 1.3vh;
+    background-repeat:no-repeat;
+    text-indent: 3.5vw;
+    font-size: calc(0.7vw + 0.8vh);
+    font-family:"Open Sans",sans-serif;
+    font-weight:bolder;
+}
+
+.divInputEmailCadastrese{
+    position:relative;
+    top:30vh;
+    border:0px solid black;
+    width:40vw;
+    height:5vh;
+    text-align: center;
+}
+
+.inputEmailCadastrese{
+    outline: none;
+    position:relative;
+    border:0px;
+    top:-77vh;
+    left:1vw;
+    width:18vw;
+    height:4.8vh;
+    background-color:rgb(233, 233, 233);
+    background-image:url("emailLogin.png");
+    background-size:1.5vw 2.9vh;
+    background-position: 1vw 1.3vh;
+    background-repeat:no-repeat;
+    text-indent: 3.5vw;
+    font-size: calc(0.7vw + 0.8vh);
+    font-family:"Open Sans",sans-serif;
+    font-weight:bolder;
+}
+
+.divInputEmailCadastrese{
+    position:relative;
+    top:30vh;
+    border:0px solid black;
+    width:40vw;
+    height:5vh;
+    text-align: center;   
+}
+
+.inputSenhaCadastrese{
+    outline: none;
+    position:relative;
+    border:0px;
+    top:-42vh;
+    left:12vw;
+    width:18vw;
+    height:4.8vh;
+    background-color:rgb(233, 233, 233);
+    background-image:url("cadeado.png");
+    background-size:1.5vw 2.9vh;
+    background-position: 1vw 1.3vh;
+    background-repeat:no-repeat;
+    text-indent: 3.5vw;
+    font-size: calc(0.7vw + 0.8vh);
+    font-family:"Open Sans",sans-serif;
+    font-weight:bolder;
+}
+
+.divButtonCadastrese{
+    position:relative;
+    top:16vw;
+    left:14vw;
+    border:0px solid black;
+    width:10vw;
+    height:10vh
+}
+
+.buttonCadastrese{
+    outline: none;
+    border:0px solid black;
+    color:white;
+    position: relative;
+    top:-62vh;
+    background-color: rgb(3, 151, 126);
+    width:13vw;
+    height:5vh;
+    border-radius: calc(1vw + 1vh);
+    font-family:sans-serif;
+    font-weight:bolder;
+    font-size:calc(1vw + 1vh);
+    cursor: pointer;
+}

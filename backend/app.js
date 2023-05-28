@@ -1,6 +1,7 @@
 import express from 'express'
 import bodyParser from 'body-parser'
 import routerGet from "./rotas/rotaGet.js";
+import routerPost from "./rotas/rotaPost.js";
 
 const app = express();
 
@@ -12,5 +13,6 @@ app.use((_req,res,next)=>{
 })
 
 app.use(routerGet)
+app.use(routerPost)
 
 export default app

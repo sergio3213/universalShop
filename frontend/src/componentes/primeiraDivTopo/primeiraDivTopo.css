@@ -1,0 +1,21 @@
+.linkMenuNomeJWT{
+    position:relative;
+    top:-5vh;
+    left:85vw
+}
+
+.setaParaBaixo{
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid black;
+    position:relative;
+    left:6.8vw;
+    top:-3.4vh
+}
+
+.ulMenuRolavelPerfil{
+    background-color: white;
+    list-style-type:none;
+}
