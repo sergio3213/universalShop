@@ -11,70 +11,10 @@
   top:-15vw
 }
 
-.primeiraDivTopo {
-  position: relative;
-  top: 1vh;
-  border: 0px solid black;
-  height: 4vh;
-}
 
-.imgEconeEmail {
-  position: relative;
-  left: 10vh;
-  width: 2vw;
-  height: 4vh;
-}
 
-.spanEmail {
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
-  position:relative;
-  left:6vw;
-  top:-1vh;
-}
 
-.imgIconeTelefone{
-  position: relative;
-  left: 20vh;
-  width: 2vw;
-  height: 4vh;
 
-}
-
-.spanTelefone{
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
-  position:relative;
-  left:11vw;
-  top:-1vh;
-}
-
-.imgIconeFacebook{
-  position: relative;
-  left: 35vw;
-  top:-0.6vh;
-  width: 1.5vw;
-  height: 2.6vh;
-
-}
-
-.imgIconeLinkedin{
-  position: relative;
-  left: 37vw;
-  top:-0.6vh;
-  width: 1.5vw;
-  height: 2.6vh;
-
-}
-
-.imgIconeGithub{
-  position: relative;
-  left: 39vw;
-  top:-0.2vh;
-  width: 2vw;
-  height: 3.4vh;
-
-}
 .tituloTopoH1DescubraUmMundo {
   position: relative;
   top: 0vh;

@@ -4,12 +4,19 @@ import iconeTelefone from "./telefoneIcone.png";
 import iconeFacebook from "./facebookicone.png";
 import iconeLinkedin from "./linkedinIcone.png";
 import iconeGithub from "./githubIcone.png";
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import jwt_decode from "jwt-decode";
-import './primeiraDivTopo.css'
+import "./primeiraDivTopo.css";
 
 function PrimeiraDivTopo() {
-  
+  const [nomeUser, setNomeUser] = useState("");
+
+  useEffect(() => {
+    if (localStorage.getItem("token") !== null) {
+      setNomeUser(jwt_decode(localStorage.getItem("token")).nome.split(" ")[0]);
+    }
+  }, [setNomeUser, localStorage.getItem("token")]);
+
   const location = useLocation();
   return (
     <div className='primeiraDivTopo'>
@@ -34,20 +41,37 @@ function PrimeiraDivTopo() {
       ></img>
       <img src={iconeGithub} className='imgIconeGithub' alt='iconeGithub'></img>
       {localStorage.getItem("token") !== null ? (
-        <div className="linkMenuNomeJWT"><ul className="ulMenuRolavelPerfil">
-          <li>{jwt_decode(localStorage.getItem("token")).nome}</li>
-          <li>{"compras"}</li>
-          <li>{"vendas"}</li>
-          <li>{"log out"}</li>
-          </ul><div className="setaParaBaixo"></div></div>
-      ) : location.pathname === "/login" ? (
-        <Link to='/topoImagemMaisPesquisa' className='LinkLogin'>
-          Home
-        </Link>
+        <div className='divMenuNomeJWT'>
+          <ul className='ulMenuRolavelPerfil'>
+            <li className='liNome'>
+              <Link>{nomeUser}</Link>
+              <div className='setaParaBaixo'></div>
+            </li>
+            <li className='liCompras'>{"Compras"}</li>
+            <li className='liVendas'>{"Vendas"}</li>
+            <li className='liLogout'>{"Log out"}</li>
+          </ul>
+        </div>
       ) : (
+        ""
+      )}
+
+      {location.pathname !== "/topoImagemMaisPesquisa" ? (
+        nomeUser ? (
+          <Link to='/topoImagemMaisPesquisa' className='linkHomeLogin'>
+            Home
+          </Link>
+        ) : (
+          <Link to='/topoImagemMaisPesquisa' className='linkHomeLoginCaseLoginNotExist'>
+            Home
+          </Link>
+        )
+      ) : localStorage.getItem("token") === null ? (
         <Link to='/login' className='LinkLogin'>
           Login
         </Link>
+      ) : (
+        ""
       )}
     </div>
   );

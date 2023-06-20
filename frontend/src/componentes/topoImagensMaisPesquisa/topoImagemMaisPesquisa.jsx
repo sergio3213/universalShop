@@ -6,6 +6,7 @@ import { actionCreator } from "../../redux/actions";
 import { connect } from "react-redux";
 import { useNavigate, Link, useLocation } from "react-router-dom";
 import Buscador from "../buscador/buscador";
+import Novidades from "./novidades/novidades";
 
 function TopoImagemMaisPesquisa(props) {
   const location = useLocation();
@@ -46,6 +47,7 @@ function TopoImagemMaisPesquisa(props) {
         </h1>
       </div>
       <Buscador></Buscador>
+      <Novidades></Novidades>
     </div>
   );
 }

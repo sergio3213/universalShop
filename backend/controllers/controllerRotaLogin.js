@@ -16,7 +16,7 @@ async function controllerLogin(req, res) {
   
   try {
     const resUsuario = await crudmongo.findUserLogin(email, senha);
-   console.log(resUsuario[0].nome)
+    console.log(resUsuario[0].nome)
     const login = { email: req.query.email,nome:resUsuario[0].nome};
   
     const token = jwt.sign(login ,secretPasswordJwt, jwtConfig)

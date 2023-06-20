@@ -1,8 +1,70 @@
-.linkMenuNomeJWT{
-    position:relative;
-    top:-5vh;
-    left:85vw
+.primeiraDivTopo {
+  position: relative;
+  top: 1vh;
+  border: 0px solid black;
+  height: 4vh;
 }
+
+
+
+.imgEconeEmail {
+    position: relative;
+    left: 10vh;
+    width: 2vw;
+    height: 4vh;
+  }
+
+  .spanEmail {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    position:relative;
+    left:6vw;
+    top:-1vh;
+  }
+  
+  .imgIconeTelefone{
+    position: relative;
+    left: 18vh;
+    width: 2vw;
+    height: 4vh;
+  
+  }
+  
+  .spanTelefone{
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    position:relative;
+    left:10.5vw;
+    top:-1vh;
+  }
+  
+  .imgIconeFacebook{
+    position: relative;
+    left: 25vw;
+    top:-0.6vh;
+    width: 1.5vw;
+    height: 2.6vh;
+  
+  }
+  
+  .imgIconeLinkedin{
+    position: relative;
+    left:27vw;
+    top:-0.6vh;
+    width: 1.5vw;
+    height: 2.6vh;
+  
+  }
+  
+  .imgIconeGithub{
+    position: relative;
+    left: 28.8vw;
+    top:-0.2vh;
+    width: 2vw;
+    height: 3.4vh;
+  
+  }
+
 
 .setaParaBaixo{
     width: 0;
@@ -11,11 +73,85 @@
     border-right: 5px solid transparent;
     border-top: 5px solid black;
     position:relative;
-    left:6.8vw;
-    top:-3.4vh
+    left:4.8vw;
+    top:-1.4vh
+}
+.divMenuNomeJWT{
+    position:relative;
+    cursor:pointer;
+    z-index:2;
+    top:-5vh;
+    left:74vw;
+    height:5.5vh;
+    width:10vw;
+    border:0px solid black;
+    overflow: hidden;
+    transition: height 0.5s ease;
 }
 
+.divMenuNomeJWT:hover{
+    height:15vh;
+}
 .ulMenuRolavelPerfil{
     background-color: white;
+    border:0px solid black;
     list-style-type:none;
 }
+
+.liNome{
+    position:relative;
+    top:0vh
+    
+}
+
+.liCompras{
+    position:relative;
+    font-family:"Open Sans",sans-serif;
+    font-weight: 600;
+}
+
+.liCompras:hover{
+    position:relative;
+    
+    background-color: rgb(231, 231, 231);
+}
+
+.liVendas{
+    z-index: 2;
+    position:relative;
+    font-family:"Open Sans",sans-serif;
+    font-weight: 600;
+}
+
+.liVendas:hover{
+    position:relative;
+    
+    background-color: rgb(231, 231, 231);
+}
+
+
+.liLogout{
+    z-index: 2;
+    position:relative;
+    font-family:"Open Sans",sans-serif;
+   font-weight: 600;}
+
+
+.liLogout:hover{
+    position:relative;
+    
+    background-color: rgb(231, 231, 231);
+}
+
+.linkHomeLogin{position:absolute;
+    left:87vw;
+    top:2vh;
+}
+
+.linkHomeLoginCaseLoginNotExist{
+    position:absolute;
+    left:80vw;
+    top:2vh;
+}
+
+

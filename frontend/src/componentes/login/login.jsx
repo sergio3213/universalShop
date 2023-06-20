@@ -1,9 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "./login.css";
 import imagemLogin from "./imagemLogin.png";
 import SubComponenteLogin from "./subComponenteLogin/subComponenteLogin";
 import SubComponenteCadastro from "./subComponenteCadastro/subComponenteCadastro";
+import withRouter from "../resultadoPesquisa/withRouter";
 
 class Login extends React.Component {
   constructor(props) {
@@ -24,6 +25,9 @@ class Login extends React.Component {
   }
 
   render() {
+    if(localStorage.getItem('token')!==null){
+      this.props.navigate("/topoImagemMaisPesquisa")
+    }
     return (
       <div className='divTudoLogin'>
         <div className='divQuadroTotal'>
@@ -69,4 +73,4 @@ class Login extends React.Component {
     );
   }
 }
-export default Login;
+export default withRouter(Login);
