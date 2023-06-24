@@ -44,6 +44,16 @@ class crudMongo {
       .toArray();
   }
 
+  async findNovidades(){
+    await clientMongo.connect();
+
+    const db = await clientMongo.db("universalShop");
+    const collection = await db.collection("produtos.roupas");
+
+    return await collection
+      .find().sort({data_criacao:-1}).limit(8).toArray();
+  }
+
 }
 
 export default crudMongo;

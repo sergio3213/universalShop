@@ -1,0 +1,385 @@
+
+  
+.divTodosCardsDeProdutosNovidades {
+    border: 0px solid black;
+    position: relative;
+    float: left;
+    top: 5vh;
+  
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 70vh; /* Defina uma altura para a div externa */
+  }
+  
+  .h1Novidades{
+    position:relative;
+    left:4vw;
+    font-family: 'Julius Sans One', sans-serif;
+    color:rgb(150, 150, 150)
+  }
+
+  .divTotalProdutoNovidades0 {
+    position: relative;
+    float: left;
+    left: 4vw;
+    width: 20vw;
+    height: 65vh;
+    border-radius: 0.4vw;
+    border: 0.01vw solid rgb(231, 231, 231);
+    box-shadow: 0 2px calc(1vw + 1vh) rgba(0, 0, 0, 0.2);
+  }
+  
+  .divImagemNovidades0 {
+    text-align: center;
+  }
+  
+  .divNomeNovidades0 {
+    font-size: calc(1vw + 2vh);
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+  }
+  
+  .divDescricaoNovidades0 {
+    position: relative;
+    top: 3vh;
+    text-align: center;
+  }
+  
+  .divPrecoNovidades0 {
+    text-align: center;
+    position: relative;
+    top: 6vh;
+    border: 0px solid black;
+    font-size: calc(1vw + 2vh);
+    font-family: "Oswald", sans-serif;
+  }
+  
+  .divAddAoCarrinhoNovidades0 {
+    position: relative;
+    top: 10vh;
+    text-align: center;
+  }
+  
+  .buttonAddAoCarrinhoNovidades0 {
+  }
+  
+  .divTotalProdutoNovidades1 {
+    float: left;
+    position: relative;
+    left: 8vw;
+    width: 20vw;
+    height: 65vh;
+  
+    border: 0.01vw solid rgb(231, 231, 231);
+    border-radius: 0.4vw;
+  
+    box-shadow: 0 2px calc(1vw + 1vh) rgba(0, 0, 0, 0.2);
+  }
+  
+  .divImagemNovidades1 {
+    text-align: center;
+  }
+  
+  .divNomeNovidades1 {
+    font-size: calc(1vw + 2vh);
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+  }
+  
+  .divDescricaoNovidades1 {
+    position: relative;
+    top: 3vh;
+    text-align: center;
+  }
+  
+  .divPrecoNovidades1 {
+    text-align: center;
+    position: relative;
+    top: 6vh;
+    border: 0px solid black;
+    font-size: calc(1vw + 2vh);
+    font-family: "Oswald", sans-serif;
+  }
+  
+  .divAddAoCarrinhoNovidades1 {
+    position: relative;
+    top: 10vh;
+    text-align: center;
+  }
+  
+  .divTotalProdutoNovidades2 {
+    float: left;
+    position: relative;
+    left: 12vw;
+    width: 20vw;
+    height: 65vh;
+  
+    border: 0.01vw solid rgb(231, 231, 231);
+    border-radius: 0.4vw;
+  
+    box-shadow: 0 2px calc(1vw + 1vh) rgba(0, 0, 0, 0.2);
+  }
+  
+  .divImagemNovidades2 {
+    text-align: center;
+  }
+  
+  .divNomeNovidades2 {
+    font-size: calc(1vw + 2vh);
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+  }
+  
+  .divDescricaoNovidades2 {
+    position: relative;
+    top: 3vh;
+    text-align: center;
+  }
+  
+  .divPrecoNovidades2 {
+    text-align: center;
+    position: relative;
+    top: 6vh;
+    border: 0px solid black;
+    font-size: calc(1vw + 2vh);
+    font-family: "Oswald", sans-serif;
+  }
+  
+  .divAddAoCarrinhoNovidades2 {
+    position: relative;
+    top: 10vh;
+    text-align: center;
+  }
+  
+  .divTotalProdutoNovidades3 {
+    float: left;
+    position: relative;
+    left: 16vw;
+    width: 20vw;
+    height: 65vh;
+  
+    border: 0.01vw solid rgb(231, 231, 231);
+    border-radius: 0.4vw;
+  
+    box-shadow: 0 2px calc(1vw + 1vh) rgba(0, 0, 0, 0.2);
+  }
+  
+  .divImagemNovidades3 {
+    text-align: center;
+  }
+  
+  .divNomeNovidades3 {
+    font-size: calc(1vw + 2vh);
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+  }
+  
+  .divDescricaoNovidades3 {
+    position: relative;
+    top: 3vh;
+    text-align: center;
+  }
+  
+  .divPrecoNovidades3 {
+    text-align: center;
+    position: relative;
+    top: 6vh;
+    border: 0px solid black;
+    font-size: calc(1vw + 2vh);
+    font-family: "Oswald", sans-serif;
+  }
+  
+  .divAddAoCarrinhoNovidades3 {
+    position: relative;
+    top: 10vh;
+    text-align: center;
+  }
+  
+  .divTotalProdutoNovidades4 {
+    float: left;
+    position: relative;
+    top: 3vh;
+    left: 4vw;
+    width: 20vw;
+    height: 65vh;
+  
+    border: 0.01vw solid rgb(231, 231, 231);
+    border-radius: 0.4vw;
+  
+    box-shadow: 0 2px calc(1vw + 1vh) rgba(0, 0, 0, 0.2);
+  }
+  
+  .divImagemNovidades4 {
+    text-align: center;
+  }
+  
+  .divNomeNovidades4 {
+    font-size: calc(1vw + 2vh);
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+  }
+  
+  .divDescricaoNovidades4 {
+    position: relative;
+    top: 3vh;
+    text-align: center;
+  }
+  
+  .divPrecoNovidades4 {
+    text-align: center;
+    position: relative;
+    top: 6vh;
+    border: 0px solid black;
+    font-size: calc(1vw + 2vh);
+    font-family: "Oswald", sans-serif;
+  }
+  
+  .divAddAoCarrinhoNovidades4 {
+    position: relative;
+    top: 10vh;
+    text-align: center;
+  }
+  
+  .divTotalProdutoNovidades5 {
+    float: left;
+    position: relative;
+    top: 3vh;
+    left: 8vw;
+    width: 20vw;
+    height: 65vh;
+  
+    border: 0.01vw solid rgb(231, 231, 231);
+    border-radius: 0.4vw;
+  
+    box-shadow: 0 2px calc(1vw + 1vh) rgba(0, 0, 0, 0.2);
+  }
+  
+  .divImagemNovidades5 {
+    text-align: center;
+  }
+  
+  .divNomeNovidades5 {
+    font-size: calc(1vw + 2vh);
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+  }
+  
+  .divDescricaoNovidades5 {
+    position: relative;
+    top: 3vh;
+    text-align: center;
+  }
+  
+  .divPrecoNovidades5 {
+    text-align: center;
+    position: relative;
+    top: 6vh;
+    border: 0px solid black;
+    font-size: calc(1vw + 2vh);
+    font-family: "Oswald", sans-serif;
+  }
+  
+  .divAddAoCarrinhoNovidades5 {
+    position: relative;
+    top: 10vh;
+    text-align: center;
+  }
+  
+  .divTotalProdutoNovidades6 {
+    float: left;
+    position: relative;
+    top: 3vh;
+    left: 12vw;
+    width: 20vw;
+    height: 65vh;
+  
+    border: 0.01vw solid rgb(231, 231, 231);
+    border-radius: 0.4vw;
+  
+    box-shadow: 0 2px calc(1vw + 1vh) rgba(0, 0, 0, 0.2);
+  }
+  
+  .divImagemNovidades6 {
+    text-align: center;
+  }
+  
+  .imgNovidades6 {
+    border: 0px solid black;
+  }
+  
+  .divNomeNovidades6 {
+    font-size: calc(1vw + 2vh);
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+  }
+  
+  .divDescricaoNovidades6 {
+    position: relative;
+    top: 3vh;
+    text-align: center;
+  }
+  
+  .divPrecoNovidades6 {
+    text-align: center;
+    position: relative;
+    top: 6vh;
+    border: 0px solid black;
+    font-size: calc(1vw + 2vh);
+    font-family: "Oswald", sans-serif;
+  }
+  
+  .divAddAoCarrinhoNovidades6 {
+    position: relative;
+    top: 10vh;
+    text-align: center;
+  }
+  
+  .divTotalProdutoNovidades7 {
+    float: left;
+    position: relative;
+    top: 3vh;
+    left: 16vw;
+    width: 20vw;
+    height: 65vh;
+  
+    border: 0.01vw solid rgb(231, 231, 231);
+    border-radius: 0.4vw;
+  
+    box-shadow: 0 2px calc(1vw + 1vh) rgba(0, 0, 0, 0.2);
+  }
+  
+  .divImagemNovidades7 {
+    text-align: center;
+  }
+  
+  .imgNovidades7 {
+    border: 0px solid black;
+  }
+  
+  .divNomeNovidades7 {
+    font-size: calc(1vw + 2vh);
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+  }
+  
+  .divDescricaoNovidades7 {
+    position: relative;
+    top: 3vh;
+    text-align: center;
+  }
+  
+  .divPrecoNovidades7 {
+    text-align: center;
+    position: relative;
+    top: 6vh;
+    border: 0px solid black;
+    font-size: calc(1vw + 2vh);
+    font-family: "Oswald", sans-serif;
+  }
+  
+  .divAddAoCarrinhoNovidades7 {
+    position: relative;
+    top: 10vh;
+    text-align: center;
+  }
+  

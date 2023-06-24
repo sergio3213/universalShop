@@ -8,6 +8,8 @@ import { useNavigate, Link, useLocation } from "react-router-dom";
 import Buscador from "../buscador/buscador";
 import Novidades from "./novidades/novidades";
 
+import Rodape from "./rodape/rodape";
+
 function TopoImagemMaisPesquisa(props) {
   const location = useLocation();
   const navigate = useNavigate();
@@ -48,6 +50,10 @@ function TopoImagemMaisPesquisa(props) {
       </div>
       <Buscador></Buscador>
       <Novidades></Novidades>
+
+      <Rodape></Rodape>
+
+
     </div>
   );
 }

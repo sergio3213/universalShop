@@ -1,0 +1,48 @@
+.tudoRodapeTopoImagemMaisPesquisa{
+    position:relative;
+    float:left;
+    top:100vh;
+    width:100vw;
+    height:28vh;
+    background-color: #aee566;
+}
+.iconesRodape{
+    width:100vw;
+    height:20vh;
+    border:0px solid black;
+}
+.imgFacebookIconeRodape{
+    position:absolute;
+    float: left;
+    top:10vh;
+    left:32vw;
+    width:5vw;
+    height:8vh;
+    }
+
+.imgLinkedinIconeRodape{
+    position:absolute;
+    float: left;
+    left:40vw;
+    width:5vw;
+    height:8vh;
+    top:10vh;
+}
+
+.imgGithubIconeRodape{
+    position:absolute;
+    float: left;
+    left:48vw;
+    width:5vw;
+    height:8vh;
+    top:10vh;
+} 
+
+.imgEmailIconeRodape{
+    position:absolute;
+    float: left;
+    left:56vw;
+    width:5vw;
+    height:8vh;
+    top:10vh;
+}
